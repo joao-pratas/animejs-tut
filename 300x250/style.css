@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----- AD STYLING -----*/
+
+#container {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#exit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#f1, #f2, #f3, #f4, #brandBlock, #f6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background: url(img/feature-overlay.png) no-repeat center center / contain;
+}
+
+#f1bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/bg-hatch.jpg) no-repeat center center / contain;
+    transform-origin: left top;
+}
+
+#f1copy1 {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    background: url(img/copy1a.png) no-repeat center center / contain;
+}
+
+#f1copy2 {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    top: 25px;
+    left: 5px;
+    background: url(img/copy1b.png) no-repeat center center / contain;
+}
+
+#f2, #f3, #f4, #f5, #brandBlock, #f6 {
+    opacity:0;
+}
+
+#f2bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/feature1.jpg) no-repeat center center / contain;
+    transform-origin: center center;
+}
+
+#f2copy1 {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    bottom: 5px;
+    left: -295px;
+    background: url(img/copy2a.png) no-repeat center center / contain;
+}
+
+#f3bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/feature2.jpg) no-repeat center center / contain;
+    transform-origin: left top;
+}
+
+#f3copy1 {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    bottom: 5px;
+    left: -295px;
+    background: url(img/copy3a.png) no-repeat center center / contain;
+}
+
+#f4bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/feature3.jpg) no-repeat center center / contain;
+    transform-origin: center center;
+}
+
+#f4copy1 {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    bottom: 5px;
+    left: -295px;
+    background: url(img/copy4.png) no-repeat center center / contain;
+}
+
+#f5bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/feature4.jpg) no-repeat center center / contain;
+    transform-origin: right top;
+}
+
+#f5copy1 {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    bottom: 5px;
+    left: -295px;
+    background: url(img/copy5.png) no-repeat center center / contain;
+}
+
+#bBbg {
+    position: absolute;
+    width: 376px;
+    height: 120%;
+    top: 0;
+    left: 100%;
+    background: url(img/brand/swipe.png) no-repeat center center / cover;
+    transform-origin: right top;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    right:0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    background: url(img/brand/logo.png) no-repeat center center / contain;
+}
+
+#f6bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img/bg-hatch.jpg) no-repeat center center / contain;
+    transform-origin: left top;
+}
+
+#f6copy1 {
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    top: 25px;
+    left: 5px;
+    background: url(img/copy6b.png) no-repeat center center / contain;
+}
+
+#f6copy2 {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    background: url(img/copy6a.png) no-repeat center center / contain;
+    
+}
+
+#lockup {
+    position: absolute;
+    width: 137px;
+    height: 20px;
+    bottom:10px;
+    right: 5px;
+    background: url(img/lockup.png) no-repeat center center / contain;
+    opacity: 0;
+}
+
+#cta {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    bottom:5px;
+    left: 5px;
+    background: url(img/cta.png) no-repeat center center / contain;
+    opacity: 0;
+}
+
+
